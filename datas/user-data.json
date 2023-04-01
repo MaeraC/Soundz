@@ -1,0 +1,57 @@
+[
+		{
+			"pseudo": "Gina Mya",
+			"id": 1,
+			"time": "3",
+			"picture": "./assets/users/gina-mya.jpg"
+		},
+        {
+			"pseudo": "John Doe",
+			"id": 2,
+			"time": "14",
+			"picture": "../assets/users/john-doe.jpg"
+		},
+        {
+			"pseudo": "Martin Seagel",
+			"id": 3,
+			"time": "19",
+			"picture": "../assets/users/martin-seagel.jpg"
+		}
+		,
+        {
+			"pseudo": "Anais Bakouja",
+			"id": 4,
+			"time": "23",
+			"picture": "../assets/users/anais-bakouja.jpg"
+		},
+        {
+			"pseudo": "Sam Kota",
+			"id": 5,
+			"time": "37",
+			"picture": "../assets/users/sam-kota.jpg"
+		},
+        {
+			"pseudo": "Emilie Pita",
+			"id": 6,
+			"time": "45",
+			"picture": "../assets/users/emilie-pita.jpg"
+		},
+        {
+			"pseudo": "Anis Fili",
+			"id": 7,
+			"time": "52",
+			"picture": "../assets/users/anis-fili(1).jpg"
+		},
+        {
+			"pseudo": "Mariam Elisa",
+			"id": 8,
+			"time": "56",
+			"picture": "../assets/users/mariam-elisa.jpg"
+		},
+        {
+			"pseudo": "Steven Djano",
+			"id": 9,
+			"time": "59",
+			"picture": "../assets/users/steven-djano.jpg"
+		}
+]

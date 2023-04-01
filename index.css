@@ -15,6 +15,9 @@ a {
 img, video {
     object-fit: cover;
 }
+.body-home {
+    display: flex;
+}
 
 nav {
     width: 25%;
@@ -48,4 +51,46 @@ nav ul li {
 nav ul li:hover {
     background: #3a3a3a;
     transition: 0.3s;
+}
+
+.stories-list {
+    width: 25%;
+}
+.user-box {
+    display: flex;
+    background-color: #3a3a3a;
+    margin: 20px 30px;
+    padding: 5px 10px;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.user-box:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+.user-box div {
+    display: flex;
+    flex-direction: column;
+}
+.user-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: solid #00d9ff 3px ;
+}
+
+.user-box .time {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.user-box .pseudo {
+    font-weight: bold;
+}
+
+.feed {
+    width: 50%;
+    border-left: 1px #3a3a3a solid;
+    border-right: 1px #3a3a3a solid;
 }
