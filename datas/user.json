@@ -1,0 +1,57 @@
+[
+    {
+        "pseudo": "beaandherbizness",
+        "id": 10,
+        "video": "./assets/videos/habits.mp4",
+        "picture": "./assets/users/beaandherbizness.PNG",
+        "bio": "enough said",
+        "tags": ["habits", "tovelo", "cover"],
+        "likes": "3.6M",
+        "comments": "12.7K",
+        "share": "841"
+    },
+    {
+        "pseudo": "claudademe",
+        "id": 11,
+        "video": "./assets/videos/uber.mp4",
+        "picture": "./assets/users/beaandherbizness.PNG",
+        "bio": "Ca c'est Uber, dispo sur toutesles plateformes",
+        "tags": ["rnb", "newartist", "cover", "emergingartist"],
+        "likes": "919",
+        "comments": "37",
+        "share": "9"
+    },
+    {
+        "pseudo": "itscilove",
+        "id": 12,
+        "video": "./assets/videos/onemoreshot.mp4",
+        "picture": "./assets/users/beaandherbizness.PNG",
+        "bio": "is he sorry ??",
+        "tags": [""],
+        "likes": "722K",
+        "comments": "3756",
+        "share": "932"
+    },
+    {
+        "pseudo": "nay.mdj",
+        "id": 13,
+        "video": "./assets/videos/cover.mp4",
+        "picture": "./assets/users/beaandherbizness.PNG",
+        "bio": "Bon j'ai écris ca mais a tout moment je supprime",
+        "tags": [""],
+        "likes": "107.8K",
+        "comments": "2116",
+        "share": "1756"
+    },
+    {
+        "pseudo": "anaismva",
+        "id": 14,
+        "video": "./assets/videos/compo.mp4",
+        "picture": "./assets/users/beaandherbizness.PNG",
+        "bio": "Ca m'a toujours fais peur de partager des chansons que j'écris mais au pire cest juste dans ma tête",
+        "tags": [""],
+        "likes": "99.5K",
+        "comments": "2785",
+        "share": "1161"
+    }
+]
