@@ -25,9 +25,34 @@ fetch("../datas/user.json")
         const commentsImg = document.createElement("span")
         const shareNb = document.createElement("div")
         const shareImg = document.createElement("span")
+        const playBtn = document.createElement("span")
+        const pauseBtn = document.createElement("span")
+        const playBtn2 = document.createElement("span")
         
         video.setAttribute("src", user.video)
         picture.setAttribute("src", user.picture)
+
+        playBtn.innerHTML = "<i class='fas fa-play'></i>"
+        playBtn2.innerHTML = "<i class='fas fa-play'></i>"
+        pauseBtn.innerHTML = "<i class='fas fa-pause'></i>"
+
+        playBtn.addEventListener("click", () => {
+            video.play()
+            playBtn.style.display = "none"
+            pauseBtn.style.display = "block"
+        })
+
+        pauseBtn.addEventListener("click", () => {
+            video.pause()
+            pauseBtn.style.display = "none"
+            playBtn2.style.display = "block"
+        })
+
+        playBtn2.addEventListener("click", () => {
+            video.play()
+            pauseBtn.style.display = "block"
+            playBtn2.style.display = "none"
+        })
 
         pseudo.textContent = "@" + user.pseudo
         bio.textContent = user.bio
@@ -51,6 +76,9 @@ fetch("../datas/user.json")
         bio.classList.add("feed-bio")
         videoBox.classList.add("video-box")
         asideInfos.classList.add("feed-aside-infos")
+        playBtn.classList.add("feed-play-btn")
+        playBtn2.classList.add("feed-play-btn2")
+        pauseBtn.classList.add("feed-pause-btn")
 
         feedSection.appendChild(box)
         box.appendChild(infos)
@@ -60,6 +88,9 @@ fetch("../datas/user.json")
         infosPB.appendChild(bio)
         box.appendChild(videoBox)
         videoBox.appendChild(video)
+        videoBox.appendChild(playBtn)
+        videoBox.appendChild(playBtn2)
+        videoBox.appendChild(pauseBtn)
         box.appendChild(tags)
         box.appendChild(asideInfos)
         asideInfos.appendChild(likesInfos)
